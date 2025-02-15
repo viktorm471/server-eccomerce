@@ -1,6 +1,6 @@
 import { Schema, model, Types } from "mongoose";
 import { OrderStatus } from "../constants/order_status";
-import { Food, FoodSchema } from "./food.model";
+import { Food, FoodSchema } from "./Food.model";
 
 
  interface LatLgn{
