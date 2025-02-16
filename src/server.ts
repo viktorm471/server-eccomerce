@@ -28,7 +28,7 @@ app.use("/api/orders",auth, orderRouter);
 
 
 
-const port = 5000;
+const port = 443;
 app.listen(port, ()=>{
     console.log("server running on port " + port);
 })
